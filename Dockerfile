@@ -17,6 +17,5 @@ COPY minimal_python_package minimal_python_package/
 
 # Copy over the test folder
 COPY tests tests/
-COPY main.py main.py
 
 CMD ["/bin/bash"]
